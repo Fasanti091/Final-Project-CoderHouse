@@ -6,6 +6,16 @@ const movies = [
     {title: "La lista de Schindler", genre: "Drama", year: 1993},
     {title: "El gran Lebowski", genre: "Comedia", year: 1998},
     {title: "Terminator 2", genre: "Acción", year: 1991},
+    {title: "The Shawshank Redemption", genre: "Drama", year: 1994},
+    {title: "The Godfather", genre: "Drama", year: 1972},
+    {title: "The Dark Knight", genre: "Acción", year: 2008},
+    {title: "Pulp Fiction", genre: "Drama", year: 1994},
+    {title: "Forrest Gump", genre: "Drama", year: 1994},
+    {title: "The Matrix", genre: "Acción", year: 1999},
+    {title: "Inception", genre: "Ciencia ficción", year: 2010},
+    {title: "Goodfellas", genre: "Drama", year: 1990},
+    {title: "Star Wars: Episode IV - A New Hope", genre: "Ciencia ficción", year: 1977},
+    {title: "Jurassic Park", genre: "Ciencia ficción", year: 1993},
   ];
   
   function showMovies(movies) {
