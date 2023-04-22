@@ -77,6 +77,14 @@ const movies = [
 const filterButton = document.querySelector("#filter");
 filterButton.addEventListener("click", filterMovies);
 
+filterButton.onclick = () =>{
+  Swal.fire(
+    'Datos cargados',
+    'se genero una tabla con resultados',
+    'success'
+  );
+}
+
 
 /*!
 
@@ -159,3 +167,4 @@ filterButton.addEventListener("click", filterMovies);
       })
   })
 })()
+
